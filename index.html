@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <link href="style.css" rel="stylesheet">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Biodata</title>
+        <title>PORTOFOLIO-NANCY</title>
     </head>
 
     <body>
         <header>
-            <h1>PORTOFOLIO</h1>
+            <center><h1>PORTOFOLIO</h1></center>
             <hr style = "height: 5px; color: #ffb3df; background-color: #cc0070;">
+
             <nav>
                 <ul>
                     <li><a href="#Tentang Saya">Tentang Saya</a></li>
+                    <li><a href="#Projek">Projek</a></li>
                     <li><a href="#Hobi">Hobi</a></li>
-                    <li><a href="#Profil">Profil</a></li>
+                    <li><a href="#Film Favorit">Film Favorit</a></li>
+                    <li><a href="#Kontak">Kontak</a></li>
+                    <li><a href="#Kritik & Saran">Kritik & Saran</a></li>
                 </ul>
             </nav>
         </header>
@@ -24,37 +27,69 @@
     <hr style = "height: 5px; color: #ffb3df; background-color: #cc0070;">
     <section ID="Tentang Saya">
         <h2>Tentang Saya</h2> 
-        <p>Saya merupakan mahasiswa aktif jurusan Sistem Informasi yang memiliki minat untuk mempelajari hal-hal baru, 
+        
+            <center><img src="UISI7229.JPG" width="250px" height="auto"></section></center>
+        <p>Saya merupakan mahasiswa aktif jurusan Sistem Informasi yang memiliki minat untuk mempelajari desain UI/UX, 
             mengikuti berbagai organisasi dan kepanitiaan baik di dalam maupun di luar kampus, 
             serta aktif dalam mengembangkan diri melalui UKM yang saya ikuti. 
             Saya adalah orang yang mudah beradaptasi dan mampu bekerja dalam tim dengan latar belakang yang berbeda.</p>
     </section>
 
     <hr style = "height: 5px; color: #ffb3df; background-color: #cc0070;">
+    <section ID="Projek">
+        <h2>Projek</h2>
+        
 
+    <hr style = "height: 5px; color: #ffb3df; background-color: #cc0070;">
     <section ID="Hobi">
         <h2>Hobi</h2>
         <ul> 1. Menonton Film
             <br> 2. Membaca Novel
-            <br> 3. Berpergian 
-            <br> 4. Mendengarkan Musik
-            <br> 5. Berenang
+            <br> 3. Mendengarkan Musik 
+            <br> 4. Berpergian
          </ul>
     </section>
 
     <hr style = "height: 5px; color: #ffb3df; background-color: #cc0070;">
-
-    <section ID="Profil">
-        <h2>Profil</h2>
-        <img src="foto.jpeg" width="30%" height="50%">
+    <section ID="Film Favorit">
+        <h2>Film Favorit</h2>
+        <video controls width="550">
+            <source src="garfield the movie.mp4" type="video/mp4">
+        </video>
     </section>
 
     <hr style = "height: 5px; color: #ffb3df; background-color: #cc0070;">
+    <section ID="Kontak">
+        <h2>Kontak</h2>
+        <nav>
+            <ul>
+                <li>Instagram: <a href="https://www.instagram.com/naancytr?igsh=YmcwOHVmNHZmdGg2/">@naancytr</a></li>
+                <li>Linkedin: <a href="https://www.linkedin.com/in/nancy-tamariska-8929082a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Nancy Tamariska</a></li>
+                <li>Email: <a href="mailto:nancy.tamariska23@student.uisi.ac.id">nancy.tamariska23@student.uisi.ac.id</a>
+            </ul>
+        </nav>
+    </section> 
 
-    <section ID="Film Favorit">
-        <h2>Film Favorit</h2>
-        <video 
+    <hr style = "height: 5px; color: #ffb3df; background-color: #cc0070;">
+    <section ID="Feedback">
+        <h2>Kritik & Saran</h2>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <input type="submit" value="Kirim">
+        </form>
     </section>
     </main>
     </body>
+
+    <footer>
+        <center><p>© 2025 Nancy Tamariska | Semua Hak Cipta Dilindungi</p></center>
+    </footer>
 </html>
